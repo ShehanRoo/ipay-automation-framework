@@ -48,4 +48,17 @@
 * Verify Response contains key "id" and value "10"
 
 
+##Post object 1
+* Verify Post Request to "/objects"
+* Verify Response Code is "200"
+* Verify Response contains key "id"
 
+## put object 11
+* Verify PUT Request to "/objects"
+* Verify Response Code is "200"
+* Verify Data object contains key "color" and value "silver"
+
+##Post object 12
+* Verify Post & Delete Request to "/objects"
+* Verify Response Code is "200"
+* Verify Response contains key "id"
